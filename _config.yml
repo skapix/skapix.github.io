@@ -1,0 +1,31 @@
+permalink: /:title/
+
+paginate_path: 'page:num'
+markdown: kramdown
+
+# exclude: [CV]
+# include: [CV/Ilya_Skapenko-en.pdf]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "I. Skapenko"
+
+
+# Data.
+comments: true
+email: aweflea@gmail.com
+files_path: files/
+github: https://github.com/skapix
+name: Ilya Skapenko
+navigation:
+- text: Articles & notes
+  url: /articles
+- text: CV
+  url: /CV/Ilya_Skapenko-en.pdf
+- text: Education
+  url: /education
+
